@@ -1,6 +1,6 @@
 from mpmath import mp
 
-# TO DO - FIX THIS
+#
 
 
 # Set precision to 1005 to ensure the first 1000 digits are accurate after rounding
@@ -23,3 +23,4 @@ mp.dps = 1005
 
 val_ln5 = mp.ln('5')
 print(f"ln(5): {val_ln5}")
+
