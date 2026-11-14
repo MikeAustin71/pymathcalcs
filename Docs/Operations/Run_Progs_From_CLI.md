@@ -16,9 +16,25 @@ Running from an external terminal (Command Prompt, PowerShell, or Mac Terminal)
 If you open a terminal window outside of PyCharm, you have to navigate to your project folder and turn on the virtual environment first.
 
 - **Navigate to your folder.** Use `cd path/to/pymathcalcs` to move into your project directory.
-- **<u>Activate the environment (Windows)</u>.** Run `.venv\Scripts\activate` (or `venv\Scripts\activate` depending on your folder name). (**THIS WORKS**: I use: `.venv\Scripts\activate` )
+- **<u>Activate the environment (Windows)</u>.** Run `.venv\Scripts\activate` (or `venv\Scripts\activate` depending on your folder name). (**THIS WORKS Only IF you run it from the base directory `pymathcalcs`**: I use: `.venv\Scripts\activate` )
 - **Activate the environment (Mac/Linux).** Run `source .venv/bin/activate`.
 - **Run the file.** Once you see `(.venv)` appear in your prompt, run `python calcNatLog.py`. (Note: Make sure you are in the right directory)
+
+## Run With **`.venv`**
+
+1. Move to the base directory: **`pymathcalcs`**
+
+2. Run the script: **`.venv\Scripts\activate`**
+
+3. Then move to the appropriate subdirectory: **`cd ./log_2_10`**
+
+4. Then execute the ***python*** Program:
+
+   ```bash
+   python log_2_10.py
+   ```
+
+   
 
 ## Quick Tip
 
