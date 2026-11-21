@@ -1,0 +1,50 @@
+# ==========================================
+# 1. SECURITY
+# ==========================================
+
+.env
+settings.local.json
+
+# ==========================================
+# 2. COMPANION PROJECTS POLICY
+# ==========================================
+# Compiled Object files, Static and Dynamic libs
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.suo
+*.so
+*.dylib
+*.test
+*.out
+*.a
+bin/
+_obj/
+obj/
+.benchcheck/
+
+
+# ==========================================
+# 3. PYTHON POLICY (AI Agent Extensions)
+# ==========================================
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv
+venv/
+ENV/
+
+# ==========================================
+# 4. MISCELLANEOUS, OS, & SECURITY
+# ==========================================
+*.gpState
+*.user
+*.pem
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
