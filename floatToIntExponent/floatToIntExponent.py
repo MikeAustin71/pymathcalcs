@@ -5,13 +5,13 @@ from mpmath import mp
 # ============================================================
 
 # Base value represented as a string
-base_str = "1.0691372836118"
+base_str = "6.9857"
 
 # Positive integer exponent represented as a string
-exponent_str = "24"
+exponent_str = "9"
 
 # Number of digits after the decimal point desired in output
-fractional_digits = 14
+fractional_digits = 8
 
 # Additional precision used during calculations
 guard_digits = 70
