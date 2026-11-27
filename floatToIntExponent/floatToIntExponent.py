@@ -5,10 +5,10 @@ from mpmath import mp
 # ============================================================
 
 # Base value represented as a string
-base_str = "10.81233"
+base_str = "9.9"
 
 # Positive integer exponent represented as a string
-exponent_str = "8"
+exponent_str = "5"
 
 # Number of digits after the decimal point desired in output
 fractional_digits = 100
